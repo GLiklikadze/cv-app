@@ -1,0 +1,71 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 1px dotted blue;
+    width: 822px;
+    height: 1080px;
+}
+
+.sibling_box{
+    display: flex;
+    flex-direction: row;
+    height: 995px;
+    margin: 48px 75px 0;
+}
+.info_box{
+    width: 512px;
+    height: 341px;
+}
+.mail_box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.name{
+    color: #F93B1D;
+    font-size: 34px;
+    font-weight: 700;
+}
+.name_small{
+    color: #F93B1D;
+    font-size: 26px;
+    font-weight: 700;
+}
+.name_box{
+    width: 410px;
+    height: 54px;
+}
+.about{
+    font-size: 18px;
+    color: #F93B1D;
+    font-weight: 700;
+}
+.about_paper{
+    width: 432px;
+    max-height: 80px;
+    overflow-x: hidden;
+}
+.img_box{
+    width: 250px;
+    height: 341px;
+    
+}
+.toggle_button{
+    background-color: transparent;
+    border: none;
+    width: 42px;
+}
+.cv_pic{
+    height: 246px;
+    width: 246px;
+    border-radius: 133px;
+    
+    object-fit: cover;
+}
+.phone_number{
+    font-size: 17.5px;
+    font-weight: 400;
+    margin: 5px 0;
+}

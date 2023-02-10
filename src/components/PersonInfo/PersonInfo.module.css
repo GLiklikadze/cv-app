@@ -1,0 +1,157 @@
+.container{
+    display:flex;
+    flex-direction: row;
+    
+}
+.info{
+    border: 1px dotted orange;
+    width: 1050px;
+    height: 1080px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px 0 35px;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #F9F9F9;
+    
+}
+.title{
+    margin: 47px 0 12px 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+.title_box{
+    width: 832px;
+    margin-top: 30px;
+}
+.logo_line{
+    width: 798px;
+    height: 1px;
+    background-color: #1A1A1A;
+    margin-bottom: 69px;
+  }
+.name_cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 23px;
+}
+.half_width_input_box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 122px;
+    font-weight: 500;
+    gap: 8px 0;
+}
+
+.half_width_input{
+    width: 365px;
+    height: 48px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.textarea_box{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 148px;
+    gap: 8px 0;
+    
+}
+.textarea_Input{
+    width: 792px;
+    height: 103px;
+    resize: none;
+    border-radius: 4px;    
+    font-size: 16px;
+}
+
+.full_width_input_box{
+    display: flex;
+    flex-direction: column;
+    height: 122px;
+    padding: 8px;
+    gap: 8px 0;
+}
+.full_width_input{
+    height: 48px;
+    width: 792px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.invalid_input_label{
+    color: #E52F2F;
+}
+.valid_input_label{
+    color: black;
+}
+.file_label{
+    width: 830px;
+    display: flex;
+    flex-direction: row;
+    gap: 19px;
+    font-size: 18px;
+    margin-block: 40px;
+}
+.img_upload{
+   display: none;
+}
+.upload_button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 107px;
+    height: 27px;
+    background-color: #0E80BF;
+    color: white;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.red_border{
+    border: 1px solid #E52F2F;
+  }
+
+.green_border{
+    border: 1px solid green;
+}
+
+.black_border{
+    border: 1px solid black;
+}
+.validation_message{
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+}
+label{
+    font-size: 16px;
+    font-weight: 600;
+}
+.input_sibling_box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.warning_icon_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 48px;
+}
+
+.input_logo_check{  
+    background-image: url(../../assets/check-fill.png); 
+    background-repeat: no-repeat;   
+    background-size: 18px;
+    background-position-x: 97%;
+    background-position-y: center;   
+    
+}
